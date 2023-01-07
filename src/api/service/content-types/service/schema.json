@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ServiceImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ServiceTitle": {
+      "type": "string"
+    },
+    "ServiceDesc": {
+      "type": "text"
+    },
+    "ServiceUID": {
+      "type": "uid",
+      "targetField": "ServiceTitle"
+    },
+    "ServicePrice": {
+      "type": "decimal"
+    },
+    "SubServices": {
+      "type": "json"
+    },
+    "Service1": {
+      "type": "string"
+    },
+    "Service2": {
+      "type": "string"
+    }
+  }
+}

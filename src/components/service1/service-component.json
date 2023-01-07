@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_service1_service_components",
+  "info": {
+    "displayName": "Service Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ServiceImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ServiceTitle": {
+      "type": "string"
+    },
+    "ServiceDescription": {
+      "type": "string"
+    },
+    "ServicePrice": {
+      "type": "decimal"
+    }
+  }
+}
